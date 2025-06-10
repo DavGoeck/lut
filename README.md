@@ -38,7 +38,7 @@ Empfunden nach [Bontibon KJV](https://github.com/bontibon/kjv.git), aber mit der
 
 lut kann installiert werden indem man das Repository klont und dann *make* ausführt:
 
-    git clone <repository-ref>
+    git clone git@github.com:DavGoeck/lut.git
     cd lut
     sudo make install
 
