@@ -2,7 +2,7 @@
 
 Das Wort Gottes in deinem Terminal
 
-Abgezweigt von [Bontibon KJV](https://github.com/bontibon/kjv.git), aber mit der Luther-Bibel
+Empfunden nach [Bontibon KJV](https://github.com/bontibon/kjv.git), aber mit der Luther-Bibel
 
 
 ## Nutzung
@@ -41,6 +41,10 @@ lut kann installiert werden indem man das Repository klont und dann *make* ausf�
     git clone <repository-ref>
     cd lut
     sudo make install
+
+## Büchernamen Modifizieren
+
+Das Script ist im Wesentlichen ein simpler Filter, der die gewünschten Bücher, Kapitel und Verse aus der Datei lut.tsv (Tab Separated Values) raussucht. Die lut.tsv kann mit transformer.mjs aus der Datei luther.json neu generiert werden, falls man andere Namen für die Bücher setzen möchte.
 
 ## Lizenz
 
